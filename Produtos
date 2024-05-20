@@ -17,7 +17,6 @@ INSERT INTO Produtos (name,preco,estoque,pericível,marca,nacionalidade) VALUES
 
 SELECT * FROM produtos; 
 
-SELECT * FROM produtos; 
 SELECT AVG(preco) From Produtos;
 SELECT AVG(preco), estoque From Produtos;
 Select name, marca, estoque FROM Produtos;
