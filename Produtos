@@ -1,0 +1,25 @@
+create table Produtos (
+         id integer primary key autoincrement,
+name varchar not null,
+preco double not null, 
+estoque int not null,
+marca varchar not null,
+pericível varchar not null,
+nacionalidade varchar not null
+
+INSERT INTO Produtos (name,preco,estoque,pericível,marca,nacionalidade) VALUES
+('produto', 25, 45, 'não', 'Nike', 'Brazil'),
+('produto2', 31, 12, 'não', 'Adidas', 'Brazil'),
+('produto3', 41, 84, 'não', 'Oukley', 'Brazil'),
+('produto4', 65, 55, 'não', 'New era', 'Brazil'),
+('produto5', 49, 48, 'não', 'Chonec', 'Brazil');
+
+
+SELECT * FROM produtos; 
+
+SELECT * FROM produtos; 
+SELECT AVG(preco) From Produtos;
+SELECT AVG(preco), estoque From Produtos;
+Select name, marca, estoque FROM Produtos;
+SELECT * from Produtos WHERE preco > 42.2;
+SELECT * FROM Produtos Brazil;
